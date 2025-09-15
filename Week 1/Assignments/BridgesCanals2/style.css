@@ -1,0 +1,17 @@
+.rectangle-outline {
+  width: 620px;
+  border: 1px solid rgb(22, 30, 186); 
+  background-color: white;
+
+  padding: 10px;
+}
+
+.main-header {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondary-headers{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}

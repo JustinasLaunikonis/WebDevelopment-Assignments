@@ -1,0 +1,7 @@
+.rectangle-outline {
+  width: 620px;
+  border: 1px solid rgb(22, 30, 186); 
+  background-color: white;
+
+  padding: 10px;
+}

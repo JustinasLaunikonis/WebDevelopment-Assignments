@@ -1,0 +1,32 @@
+.body, body {
+    background: darkslategrey;
+}
+
+.mondrian {
+    display: grid;
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+
+    width: 420px;
+    height: 420px;
+
+    background: black;
+    gap: 6px; 
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.white {
+    background: white;
+}
