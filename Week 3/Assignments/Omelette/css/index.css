@@ -1,0 +1,23 @@
+body {
+    background-color:  hsl(31, 53%, 90%);
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin: 0;
+    padding: 2rem;
+}
+
+.content{
+    grid-column: 2/4;
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 20px;
+    
+    padding: 2rem;
+}
+
+.content > img{
+    width: 100%;
+    border-radius: 20px;
+}

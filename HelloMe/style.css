@@ -6,6 +6,7 @@
 	box-shadow: 0 2px 12px rgba(0,0,0,0.07);
 	display: block;
 }
+
 .week-dropdown {
 	width: 100%;
 	margin-bottom: 12px;
@@ -15,9 +16,11 @@
 	border: none;
 	padding: 0;
 }
+
 .week-dropdown[open] {
 	background: #f0f4f8;
 }
+
 .week-dropdown summary {
 	font-weight: 600;
 	font-size: 18px;
@@ -30,13 +33,16 @@
 	transition: background 0.2s;
 	list-style: none;
 }
+
 .week-dropdown summary:hover, .week-dropdown summary:focus {
 	background: #e6f0fa;
 }
+
 .week-dropdown ul {
 	padding: 0 18px 12px 18px;
 	margin: 0;
 }
+
 .week-dropdown li {
 	margin: 10px 0;
 }
