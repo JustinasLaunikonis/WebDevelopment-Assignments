@@ -1,0 +1,26 @@
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(164, 37%, 12%);
+    margin: 0;
+    padding: 20px;
+}
+ul{
+    padding-left: 20px;   
+    list-style: square;
+}
+
+li{
+    margin-top: 10px;
+    text-indent: 20px;
+    color: hsl(163, 71%, 51%)
+}
+
+li::marker{
+    font-weight: bold;
+    color: hsl(163, 80%, 24%);
+}
+
+h2{
+    color:aquamarine;
+}

@@ -16,7 +16,7 @@
             }
             elseif ($number < 100)
             {
-            return "$number is lower than 100.<br>";
+                return "$number is lower than 100.<br>";
             }
             else
             {
