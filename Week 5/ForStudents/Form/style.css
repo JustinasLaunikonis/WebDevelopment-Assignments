@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input[type=text], input[type=email], input[type=submit]{
+    max-width: 200px;
+}
+
+main{
+    grid-column: 2;
+    background-color: rgb(157, 212, 157);
+    border-radius: 12px;
+    min-height: 80vh;
+    padding: 2rem
+}
+
+header{
+    grid-column: 1/4;
+}

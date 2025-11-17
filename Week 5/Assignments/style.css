@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    background-color: lightgray;
+}
+
+main{
+    grid-column: 2/5;
+    background-color: white;
+
+    padding-left: 2rem;
+}
+
+h1, p, label, h4{
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: rgb(97, 94, 94);
+}
+
+label{
+    font-size: 12px;
+}
+
+.border{
+    border-bottom: 1px solid gray;
+
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+
+.buttons input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 16px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+
+    box-shadow: gray 0px 0px 2px;
+
+    color: rgb(97, 94, 94);
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input[type="text"], input[type="email"]{
+    max-width: 400px;
+    padding: 8px 12px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(189, 189, 189);
+    font-size: 14px;
+
+    box-shadow: inset 0 2px 4px rgb(97, 94, 94, 0.1);
+}
+
+.inputs {
+    display: flex;
+    gap: 5px;
+}
+
+.inputs h4{
+    margin-top: 8px;
+    color: rgb(97, 94, 94);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box p {
+    min-width: 150px;
+    margin-top: 8px;
+}

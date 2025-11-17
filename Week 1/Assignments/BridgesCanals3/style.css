@@ -1,23 +1,21 @@
-.rectangle-outline {
-  width: 620px;
-  border: 1px solid rgb(22, 30, 186); 
-  background-color: white;
+main{
+    border: solid blue 1px;
+    padding: 20px;
+    width: 700px;
 
-  padding: 10px;
+    padding-bottom: 40px;
 }
 
-.main-header {
-  color: blue;
-  font-family: Arial, Helvetica, sans-serif;
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.secondary-headers{
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
+h2{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.image {
-  float: top;
-  outline: 5px blue solid;
-  margin-bottom: 10px;
+img{
+    border: solid blue 3px;
 }
